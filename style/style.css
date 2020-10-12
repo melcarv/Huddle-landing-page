@@ -9,3 +9,54 @@ body {
     background-color: hsl(257, 40%, 49%);
     color: #fff;
 }
+
+.logo {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+.logo__img {
+    width: 36%;
+}
+
+.register__container {
+    width: 80%;
+    margin: auto;
+}
+
+.register__img {
+    width: 100%;
+}
+
+.register__tittle {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.register__text {
+    text-align: center;
+}
+
+.register__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register__button {
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+}
+
+.social__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
