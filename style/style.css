@@ -7,6 +7,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: hsl(257, 40%, 49%);
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     color: #fff;
 }
 
@@ -22,6 +25,7 @@ body {
 .register__container {
     width: 80%;
     margin: auto;
+    margin-top: 55px;
 }
 
 .register__img {
@@ -32,16 +36,19 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .register__text {
     text-align: center;
+    line-height: 1.5;
 }
 
 .register__intro {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 55px;
 }
 
 .register__button {
@@ -53,10 +60,22 @@ body {
     width: 70%;
     border: none;
     border-radius: 20px;
+    box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.4);
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.social__media {
+    margin-bottom: 35px;
 }
 
 .social__list {
     display: flex;
     justify-content: center;
     list-style: none;
+}
+
+.social__img {
+    width: 30px;
+    margin-right: 10px;
 }
