@@ -101,3 +101,95 @@ body {
         width: 40px;
     }
 }
+
+@media (min-width: 1024px) {
+    body {
+    background-image: url(/images/bg-desktop.svg);
+    background-size: cover;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .logo__img {
+        width: 18%;
+    }
+
+    .register__container {
+        display: flex;
+        width: 90%;
+    }
+
+    .register__intro {
+        width: 43%;
+        margin-left: 35px;
+    }
+
+    .social__media {
+        margin-bottom: 30px;
+        margin-right: 50px;
+    }
+
+    .social__list {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    body {
+        background-size: contain;
+    }
+
+    .logo {
+        margin-left: 70px;
+        margin-top: 55px;
+    }
+
+    .logo__img {
+        width: 15%;
+    }
+
+    .register__container {
+        margin-top: 82px;
+        margin-bottom: 20px;
+    }
+
+    .register__intro {
+        width: 40%;
+        margin-left: 52px;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+
+    .register__tittle {
+        font-size: 40px;
+        text-align: initial;
+    }
+
+    .register__text {
+        text-align: initial;
+        font-size: 18px;
+    }
+
+    .register__button {
+        font-size: 16px;
+        padding: 15px;
+        border-radius: 30px;
+        width: 40%;
+        box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.87);
+    }
+
+    .social__media {
+        margin-bottom: 35px;
+        margin-right: 70px;
+    }
+
+    .social__img {
+        width: 42px;
+        margin-right: 14px;
+    }
+
+    
+}
