@@ -79,3 +79,25 @@ body {
     width: 30px;
     margin-right: 10px;
 }
+
+
+/*Media Query*/
+
+@media (min-width: 768px) {
+
+    .logo__img {
+        width: 25%;
+    }
+
+    .register__container {
+        width: 65%;
+    }
+
+    .register__button {
+        width: 60%;
+    }
+
+    .social__img {
+        width: 40px;
+    }
+}
